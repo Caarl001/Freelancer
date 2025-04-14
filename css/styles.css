@@ -28,3 +28,21 @@ body{
     font-size: 2rem;
     color: var(--oscuro);
 }
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--secunndario);   
+}
+
+.navegation-principal{
+    padding: 1rem;
+}
+
+.navegation-principal a {
+    color: var(--blanco);
+    text-decoration:none;
+}
