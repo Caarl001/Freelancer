@@ -12,12 +12,15 @@ html {
 
 body{
     font-size: 16px; /* rem = 10px */
+    font-family: "Krub", sans-serif;
 }
 
 .titulo {
     text-align: center;
     font-size: 3.8rem;
     color:red;
+    font-family: "Krub", sans-serif;
+    font-weight: 800;
     
 }
 
