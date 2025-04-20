@@ -78,37 +78,40 @@
             <fieldset>
                 <legend>Contactános llenando todos los campos</legend>
 
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Nombre">
-                </div>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre">
+                    </div>
 
-                <div>
-                    <label>Teléfono</label>
-                    <input type="tel" placeholder="Tú teléfono">
-                </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tú teléfono">
+                    </div>
 
-                <div>
-                    <label>Correo</label>
-                    <input type="email" placeholder="Tú email">
-                </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tú email">
+                    </div>
 
-                <div>
-                    <label> Mensaje</label>
-                    <textarea></textarea>
-                </div>
+                    <div class="campo">
+                        <label> Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                    
+                </div> <!-- Fin contenedor campos -->
 
-                <div>
-                    <input type="submit" value="Enviar">
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
                 </div>
-
             </fieldset>
-        </form>
+            </form>
     </section>
 </main>
-    
-</body>
-<footer>
+
+<footer class="footer">
     <p>Todos los derechos reservados</p>
 </footer>
+    
+</body>
 </html>
